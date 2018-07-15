@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/buildings"
+            android:icon="@drawable/baseline_account_balance_black_48"
+            android:title="Monuments and Buildings"
+
+            />
+        <item
+            android:id="@+id/food"
+            android:icon="@drawable/baseline_local_dining_black_48"
+            android:title="Local Dining" />
+        <item
+            android:id="@+id/shopping"
+            android:icon="@drawable/baseline_shopping_cart_black_48"
+            android:title="Shopping" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/baseline_favorite_black_48"
+            android:title="Local Favorites" />
+    </group>
+</menu>
